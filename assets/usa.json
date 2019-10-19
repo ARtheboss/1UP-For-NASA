@@ -3,10 +3,10 @@
   "question":"Which of these satellite images represents the US?",
   "image":"true",
  "options": [
-     "/assets/Countries/SG.jpg",
-     "/assets/Countries/Peru.jpg",
-     "/assets/Countries/USA.jpg",
-     "/assets/Countries/UK.jpg"
+     "../assets/Countries/SG.jpg",
+     "../assets/Countries/Peru.jpg",
+     "../assets/Countries/USA.jpg",
+     "../assets/Countries/UK.jpg"
     ],
   "answer": 2
   },
