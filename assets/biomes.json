@@ -162,8 +162,66 @@
                 ],
                 "answer": "Grasslands"
         },   
-            
-            
+        
+                  "location12": {
+                "location name":"Pampas",
+                "soil moisture (g/cm^3)": "0.005",
+                "temperature (˚C)": "12.2",
+                "image": "assets/Biome/Grassland/Pampas Dirt0.005 12.2°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Grasslands"
+        },   
+        
+            "location13": {
+                "location name":"Pontic-Caspian Steppe",
+                "soil moisture (g/cm^3)": "0.005",
+                "temperature (˚C)": "5",
+                "image": "assets/Biome/Grassland/Pontic-Caspian Steppe Dirt0.005 5°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Grasslands"
+        },   
+                        "location14": {
+                "location name":"Pontic-Caspian Steppe",
+                "soil moisture (g/cm^3)": "0.005",
+                "temperature (˚C)": "5",
+                "image": "assets/Biome/Grassland/Pontic-Caspian Steppe Dirt0.005 5°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Grasslands"
+        },   
+                        "location15": {
+                "location name":"Veld of South Africa Dirtf",
+                "soil moisture (g/cm^3)": "0.005",
+                "temperature (˚C)": "18",
+                "image": "assets/Biome/Grassland/Veld of South Africa Dirt0.005 18°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Grasslands"
+        },   
+
+
         
     }
 }
