@@ -1,0 +1,13 @@
+"human_footprint": {
+  "questionanimal": "Which country has the largest human footprint?",
+        "q1": {
+                "options": [
+                    "Peru",
+                    "Zambia"
+                    "Singapore"
+                    "Spain"
+                ],
+                "answer": "Amphibian"
+            }
+            
+}
