@@ -9,10 +9,10 @@
                     "Tundra"
                 ],
             "location1": {
-                "location name":"Chihuahuan ________"
+                "location name":"Chihuahuan ________",
                 "soil moisture (g/cm^3)": "0.005",
-                "temperature (˚C)": "24"
-                "image": "Biomes/Desert/Chihuahuan Dirt0.005 24°C.jpg"
+                "temperature (˚C)": "24",
+                "image": "Biomes/Desert/Chihuahuan Dirt0.005 24°C.jpg",
                 "options": [
                     "Desert",
                     "Forest",
@@ -23,10 +23,10 @@
                 "answer": "Desert"
         },
             "location2": {
-                "location name":"Gibson ________"
+                "location name":"Gibson ________",
                 "soil moisture (g/cm^3)": "0.005",
-                "temperature (˚C)": "29"
-                "image": "Biomes/Desert/Gibson Dirt0.005 29°C.jpg"
+                "temperature (˚C)": "29",
+                "image": "Biomes/Desert/Gibson Dirt0.005 29°C.jpg",
                 "options": [
                     "Desert",
                     "Forest",
