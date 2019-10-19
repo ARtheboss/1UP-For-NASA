@@ -1,0 +1,72 @@
+
+    "area_through_time": {
+        "question": "Which of these satellite images are the most recent?",
+        "q1": {
+            "c": "assets/Pics through time/Aral Sea/Aral sea 1.jpg",
+            "a": "assets/Pics through time/Aral Sea/Aral sea 2.jpg", 
+            "d": "assets/Pics through time/Aral Sea/Aral sea 3.jpg", 
+            "e": "assets/Pics through time/Aral Sea/Aral sea 4.jpg", 
+            "b": "assets/Pics through time/Aral Sea/Aral sea 5.jpg", 
+            "f": "assets/Pics through time/Aral Sea/Aral sea 6.jpg", 
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                    "e"
+                    "f"
+                ],
+                "answer": "c"
+            },
+            "q2": {
+            "a": "assets/Pics through time/Aral Sea/Columbia Glacier 1.jpg",
+            "c": "assets/Pics through time/Aral Sea/Columbia Glacier 2.jpg", 
+            "d": "assets/Pics through time/Aral Sea/Columbia Glacier 3.jpg", 
+            "b": "assets/Pics through time/Aral Sea/Columbia Glacier 4.jpg", 
+            "f": "assets/Pics through time/Aral Sea/Columbia Glacier 5.jpg", 
+            "e": "assets/Pics through time/Aral Sea/Columbia Glacier 6.jpg", 
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                    "e"
+                    "f"
+                ],
+                "answer": "a"
+            },
+            "q3": {
+            "d": "assets/Pics through time/Aral Sea/Dubai Coast 1.jpg",
+            "e": "assets/Pics through time/Aral Sea/Dubai Coast 2.jpg", 
+            "c": "assets/Pics through time/Aral Sea/Dubai Coast 3.jpg", 
+            "f": "assets/Pics through time/Aral Sea/Dubai Coast 4.jpg", 
+            "a": "assets/Pics through time/Aral Sea/Dubai Coast 5.jpg", 
+            "b": "assets/Pics through time/Aral Sea/Dubai Coast 6.jpg", 
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                    "e"
+                    "f"
+                ],
+                "answer": "d"
+            },
+            "q4": {
+            "e": "assets/Pics through time/Aral Sea/Kosi River, Bihar 1.jpg",
+            "b": "assets/Pics through time/Aral Sea/Kosi River, Bihar 2.jpg", 
+            "d": "assets/Pics through time/Aral Sea/Kosi River, Bihar 3.jpg", 
+            "c": "assets/Pics through time/Aral Sea/Kosi River, Bihar 4jpg", 
+            "a": "assets/Pics through time/Aral Sea/Kosi River, Bihar 5.jpg", 
+            "f": "assets/Pics through time/Aral Sea/Kosi River, Bihar 6.jpg", 
+                "options": [
+                    "a",
+                    "b",
+                    "c",
+                    "d"
+                    "e"
+                    "f"
+                ],
+                "answer": "e"
+            }
+}
