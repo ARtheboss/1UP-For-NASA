@@ -5,16 +5,12 @@
             "c": "assets/Pics through time/Aral Sea/Aral sea 1.jpg",
             "a": "assets/Pics through time/Aral Sea/Aral sea 2.jpg", 
             "d": "assets/Pics through time/Aral Sea/Aral sea 3.jpg", 
-            "e": "assets/Pics through time/Aral Sea/Aral sea 4.jpg", 
-            "b": "assets/Pics through time/Aral Sea/Aral sea 5.jpg", 
-            "f": "assets/Pics through time/Aral Sea/Aral sea 6.jpg", 
+            "b": "assets/Pics through time/Aral Sea/Aral sea 4.jpg", 
                 "options": [
                     "a",
                     "b",
                     "c",
                     "d"
-                    "e"
-                    "f"
                 ],
                 "answer": "c"
             },
@@ -36,10 +32,8 @@
                 "answer": "a"
             },
             "q3": {
-            "d": "assets/Pics through time/Aral Sea/Dubai Coast 1.jpg",
-            "e": "assets/Pics through time/Aral Sea/Dubai Coast 2.jpg", 
+            "d": "assets/Pics through time/Aral Sea/Dubai Coast 1.jpg", 
             "c": "assets/Pics through time/Aral Sea/Dubai Coast 3.jpg", 
-            "f": "assets/Pics through time/Aral Sea/Dubai Coast 4.jpg", 
             "a": "assets/Pics through time/Aral Sea/Dubai Coast 5.jpg", 
             "b": "assets/Pics through time/Aral Sea/Dubai Coast 6.jpg", 
                 "options": [
@@ -47,26 +41,20 @@
                     "b",
                     "c",
                     "d"
-                    "e"
-                    "f"
                 ],
                 "answer": "d"
             },
             "q4": {
-            "e": "assets/Pics through time/Aral Sea/Kosi River, Bihar 1.jpg",
-            "b": "assets/Pics through time/Aral Sea/Kosi River, Bihar 2.jpg", 
+            "b": "assets/Pics through time/Aral Sea/Kosi River, Bihar 1.jpg",
+            "a": "assets/Pics through time/Aral Sea/Kosi River, Bihar 2.jpg", 
             "d": "assets/Pics through time/Aral Sea/Kosi River, Bihar 3.jpg", 
-            "c": "assets/Pics through time/Aral Sea/Kosi River, Bihar 4jpg", 
-            "a": "assets/Pics through time/Aral Sea/Kosi River, Bihar 5.jpg", 
-            "f": "assets/Pics through time/Aral Sea/Kosi River, Bihar 6.jpg", 
+            "c": "assets/Pics through time/Aral Sea/Kosi River, Bihar 4jpg",  
                 "options": [
                     "a",
                     "b",
                     "c",
                     "d"
-                    "e"
-                    "f"
                 ],
-                "answer": "e"
+                "answer": "b"
             }
 }
