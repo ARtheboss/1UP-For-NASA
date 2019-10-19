@@ -19,15 +19,11 @@
             "c": "assets/Pics through time/Aral Sea/Columbia Glacier 2.jpg", 
             "d": "assets/Pics through time/Aral Sea/Columbia Glacier 3.jpg", 
             "b": "assets/Pics through time/Aral Sea/Columbia Glacier 4.jpg", 
-            "f": "assets/Pics through time/Aral Sea/Columbia Glacier 5.jpg", 
-            "e": "assets/Pics through time/Aral Sea/Columbia Glacier 6.jpg", 
                 "options": [
                     "a",
                     "b",
                     "c",
                     "d"
-                    "e"
-                    "f"
                 ],
                 "answer": "a"
             },
