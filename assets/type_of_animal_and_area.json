@@ -1,1 +1,12 @@
-
+"area_through_time": {
+  "questionanimal": "Which type of animal makes up most of the area?",
+        "q1": {
+            "Location": "Peru", 
+          
+                "options": [
+                    "Amphibian",
+                    "Mammals"
+                ],
+                "answer": "Amphibian"
+            },
+}
