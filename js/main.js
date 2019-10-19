@@ -1,5 +1,4 @@
 
-
 var wrongs = 0;
 var questions = [];
 const quiz_length = 10;
@@ -14,7 +13,7 @@ class Question{
 
 	constructor(name,question){
 		question = question + 1
-		getJSONfile('assets/'+name+'.json');
+		getJSONfile("assets/"+name+'.json');
 	}
 
 }
@@ -24,6 +23,8 @@ function main(country){
 	hideCountryList();
 
 	questions = generateQuestions(country);
+
+	console.log(questions);
 
 	populateDivs(questions[0],0);
 }
@@ -50,7 +51,7 @@ function generateQuestions(country){
 		var q = new Question(country, i);
 		qs.push(q);
 	}
-	return qs;
+	setTimeout(function(){return qs},1000);
 }
 
 function populateDivs(q,on){
@@ -79,6 +80,17 @@ function populateDivs(q,on){
 	}	
 }
 
+
+function messUp(){
+	wrongs += 1;
+	horse.style.opacity += 0.2;
+	if(wrongs == 5){
+		gameDone();
+	}
+	var countries = document.getElementsByClassName("country");
+}
+
+
 function answer(picked,correct,t,on){
 	for(var i = 0; i < 4; i++){
 		document.getElementById('answer'+i).style.background = 'white';
@@ -92,11 +104,7 @@ function answer(picked,correct,t,on){
 	}else{
 		picked.style.background = 'red';
 		document.getElementById(correct).style.background = 'green';
-		wrongs += 1;
-		horse.style.opacity += 0.2;
-		if(wrongs == 5){
-			gameDone();
-		}
+		messUp();
 	}
 	document.getElementById('score').innerHTML = score;
 
