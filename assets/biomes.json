@@ -207,7 +207,7 @@
                 "answer": "Grasslands"
         },   
                         "location15": {
-                "location name":"Veld of South Africa Dirtf",
+                "location name":"Veld of South Africa",
                 "soil moisture (g/cm^3)": "0.005",
                 "temperature (˚C)": "18",
                 "image": "assets/Biome/Grassland/Veld of South Africa Dirt0.005 18°C.jpg",
@@ -220,8 +220,74 @@
                 ],
                 "answer": "Grasslands"
         },   
-
-
+           "location16": {
+                "location name":"Caspian ___",
+                "temperature (˚C)": "15",
+                "image": "assets/Biome/Marine/Caspian Sea 15°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Marine"
+        },   
+        
+                  "location17": {
+                "location name":"Great Bear ___",
+                "temperature (˚C)": "27",
+                "image": "assets/Biome/Marine/Great Bear Lake 27°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Marine"
+        },  
+ "location18": {
+                "location name":"____ Michigan",
+                "temperature (˚C)": "25",
+                "image": "assets/Biome/Marine/Lake Michigan 25°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Marine"
+        }, 
+        
+         "location19": {
+                "location name":"____ Tanganyika",
+                "temperature (˚C)": "25",
+                "image": "assets/Biome/Marine/Lake Tanganyika 25°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Marine"
+        }, 
+                
+         "location20": {
+                "location name":"Sungei Buloh ______ ________",
+                "temperature (˚C)": "27",
+                "image": "assets/Biome/Marine/Sungei Buloh Wetlands Reserve 27°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Marine"
+        }, 
         
     }
 }
