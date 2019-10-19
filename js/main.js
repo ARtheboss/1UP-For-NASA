@@ -14,7 +14,7 @@ class Question{
 
 	constructor(name,question){
 		question = question + 1
-		getJSONfile(name+'.json');
+		getJSONfile('assets/'+name+'.json');
 	}
 
 }
