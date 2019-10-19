@@ -1,7 +1,7 @@
 
 var wrongs = 0;
 var questions = [];
-const quiz_length = 10;
+const quiz_length = 5;
 
 var leaderboard = [];
 
@@ -12,8 +12,8 @@ var name = "asdf";
 class Question{
 
 	constructor(name,question){
-		question = question + 1
-		getJSONfile("assets/"+name+'.json');
+		question = question + 1;
+		getJSONfile("../assets/"+name+'.json',this,question);
 	}
 
 }
@@ -23,10 +23,6 @@ function main(country){
 	hideCountryList();
 
 	questions = generateQuestions(country);
-
-	console.log(questions);
-
-	populateDivs(questions[0],0);
 }
 
 function hideCountryList(){
@@ -46,25 +42,28 @@ function hideStartPage(){
 }
 
 function generateQuestions(country){
-	var qs = [];
+	qs = [];
 	for(var i = 0; i < quiz_length; i++){
 		var q = new Question(country, i);
 		qs.push(q);
 	}
-	setTimeout(function(){return qs},1000);
+	return qs;
 }
 
 function populateDivs(q,on){
 	if(on == quiz_length){
-		endGame();
+		backToList();
 	}else{
-		document.getElementById('question').innerHTML = q.question;
+		console.log(q)
+		console.log(q.q)
+		document.getElementById('question').innerHTML = q.q;
 
 		var d = new Date();
 		var time = d.getTime();
-		if(q.img){
+		if(q.img == 'true'){
 			for(var i = 0; i < 4; i++){
 				var div = document.getElementById('answer'+i);
+				div.style.display = 'inline-block';
 				div.removeAttribute("style")
 				div.innerHTML = "<img src='"+q.options[i]+"'>";
 				div.onclick = function(){answer(this,'answer'+q.answer,time,on)}
@@ -72,9 +71,14 @@ function populateDivs(q,on){
 		}else{
 			for(var i = 0; i < 4; i++){
 				var div = document.getElementById('answer'+i);
-				div.removeAttribute("style")
-				div.innerHTML = q.options[i];
-				div.onclick = function(){answer(this,'answer'+q.answer,time,on)}
+				if(i >= q.options.length){
+					div.style.display = 'none';
+				}else{
+					div.style.display = 'inline-block';
+					div.removeAttribute("style")
+					div.innerHTML = q.options[i];
+					div.onclick = function(){answer(this,'answer'+q.answer,time,on)}
+				}
 			}
 		}
 	}	
@@ -83,11 +87,17 @@ function populateDivs(q,on){
 
 function messUp(){
 	wrongs += 1;
-	horse.style.opacity += 0.2;
+	document.getElementById('horse').style.opacity = wrongs * 0.2;
+	console.log(document.getElementById('horse').style.opacity);
 	if(wrongs == 5){
 		gameDone();
 	}
 	var countries = document.getElementsByClassName("country");
+	console.log(countries.length);
+	countries = countries[Math.floor(Math.random()*countries.length)];
+	var img = countries.childNodes[1];
+	console.log(img)
+	img.src = '';
 }
 
 
@@ -106,9 +116,8 @@ function answer(picked,correct,t,on){
 		document.getElementById(correct).style.background = 'green';
 		messUp();
 	}
-	document.getElementById('score').innerHTML = score;
 
-	setTimeout(function(){populateDivs(questions[on],on+1)},2000)
+	setTimeout(function(){populateDivs(questions[on+1],on+1)},2000)
 }
 
 
@@ -120,11 +129,11 @@ function backToList(){
 
 }
 
-function getJSONfile(url,c){
+function getJSONfile(url,c,q){
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 	    if (this.readyState == 4 && this.status == 200) {
-	    	toConstructor(xhttp.responseText,c);
+	    	toConstructor(xhttp.responseText,c,q);
 		    //parseLeaderboard(xhttp.responseText);
 	    }
 	};
@@ -133,12 +142,16 @@ function getJSONfile(url,c){
 	xhttp.send();
 }
 
-function toConstructor(r,c){
+function toConstructor(r,c,q){
 	var json = JSON.parse(r);
-	c.q = json['q'+question].question;
-	c.options = json['q'+question].options;
-	c.answer = json['q'+question].answer;
-	c.img = json['q'+question].image;
+	c.q = json['q'+q].question;
+	c.options = json['q'+q].options;
+	c.answer = json['q'+q].answer;
+	c.img = json['q'+q].image;
+
+	if(q == quiz_length){
+		populateDivs(questions[0],0);
+	}
 }
 
 function parseLeaderboard(r){
