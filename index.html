@@ -1,17 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>NASA Earth Quiz</title>
+  <title>Earth Quiz</title>
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  <script src="js/question.js"></script>
   <script src='js/main.js'></script>
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-  <img src='https://onspondata.s3.ap-south-1.amazonaws.com/Images/events/logo/SpaceApps_logo-circle-white-1567453680.png' style='width:20%;margin-left:auto;margin-right:auto;display:block'>
-  <h1>Earth Quiz</h1>
-  <h3>How well do you know our planet?</h2>
-  <img src='https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg' onclick='start();' class='start'>
-  <div class='earth_overlay'>Start</div>
+	<h1 id='title'>Earth
+  		<img id='title-img' src='https://onspondata.s3.ap-south-1.amazonaws.com/Images/events/logo/SpaceApps_logo-circle-white-1567453680.png'>
+  	Quiz</h1>
+  	<div id='start-page'>
+	  	<h3>How well do you know our planet?</h3>
+	  	<p>(Click on the globe to continue)</p>
+	  	<div class="container">
+	  		<img src='https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg'  class='start'>
+	  		<div class="overlay" onclick='main();'>
+	   			<div class="text">Start</div>
+	  		</div>
+		</div>
+	</div>
+	<div id='questions'>
+		<div id='question'>
+			What is the meaning of life?
+		</div>
+		<div id='answers'>
+			<div id='answer0' class='answers'>General</div>
+			<div id='answer1' class='answers'>Kenobi</div>
+			<div id='answer2' class='answers'>Hello</div>
+			<div id='answer3' class='answers'>There</div>
+		</div>
+		<div class='score'>
+			<div class='score-label'>Score</div>
+			<div id='score'>0</div>
+		</div>
+	</div>
 </body>
 
 </html>
