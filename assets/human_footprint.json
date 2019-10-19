@@ -1,13 +1,94 @@
 "human_footprint": {
-  "questionanimal": "Which country has the largest human footprint?",
+  "question": "Which country has leaves the largest human footprint on its biomes?",
         "q1": {
                 "options": [
                     "Peru",
-                    "Zambia"
-                    "Singapore"
+                    "Zambia",
+                    "Singapore",
                     "Spain"
                 ],
-                "answer": "Amphibian"
+                "answer": "Singapore"
+            },
+  "q2": {
+                "options": [
+                    "Australia",
+                    "Oman",
+                    "Canada",
+                    "Norway"
+                ],
+                "answer": "Canada"
+            },
+  "q3": {
+                "options": [
+                    "Canada",
+                    "Mongolia",
+                    "UK",
+                    "Sri Lanka"
+                ],
+                "answer": "UK"
+            },
+  "q4": {
+                "options": [
+                    "India",
+                    "China",
+                    "Japan",
+                    "Malaysia"
+                ],
+                "answer": "India"
+            },
+  "q5": {
+                "options": [
+                    "China",
+                    "USA",
+                    "Peru",
+                    "Singapore"
+                ],
+                "answer": "Singapore"
+            },
+  "q6": {
+                "options": [
+                    "Oman",
+                    "Malaysia",
+                    "Spain",
+                    "Norway"
+                ],
+                "answer": "Malaysia"
+            },
+  "q7": {
+                "options": [
+                    "Zambia",
+                    "Malaysia",
+                    "Canada",
+                    "Norway"
+                ],
+                "answer": "Zambia"
+            },
+  "q8": {
+                "options": [
+                    "Australia",
+                    "Japan",
+                    "Sri Lanka",
+                    "Mongolia"
+                ],
+                "answer": "Sri Lanka"
+            },
+  "q9": {
+                "options": [
+                    "Norway",
+                    "UK",
+                    "USA",
+                    "Zambia"
+                ],
+                "answer": "UK"
+            },
+  "q10": {
+                "options": [
+                    "China",
+                    "Australia",
+                    "Sri Lanka",
+                    "Saudi Arabia"
+                ],
+                "answer": "Sri Lanka"
             }
             
 }
