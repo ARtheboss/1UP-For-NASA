@@ -132,6 +132,59 @@ p{
   border-radius: 0 0 2vw 0;
 }
 
+#horse{
+  display: block;
+  position: absolute;
+  left: 1%;
+  top: 45%;
+  background: white;
+  font-size: 10vw;
+  color: black;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.unused{
+  color: gray;
+}
+
+.used{
+  color: red;
+}
+
+#country-choices{
+  display: none;
+}
+
+.country{
+  display:inline-block;
+  background: white;
+  width:30%;
+  margin:1vw;
+  cursor:pointer;
+}
+
+.country-name{
+  color:black;
+  text-align: center
+}
+
+.country img{
+  width:100%;
+  height:50%;
+}
+
+.list{
+  width:70%;
+  height:65vw;
+  margin:auto;
+  overflow-y: scroll;
+}
+
+.answers img{
+  width:80%;
+}
+/*
 .score{
   position:absolute;
   top:2vh;
@@ -157,3 +210,4 @@ p{
   font-size:2.5vw;
   text-align: right;
 }
+*/
