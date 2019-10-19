@@ -1,0 +1,56 @@
+"singapore":{
+  "q1"{
+  "question":"Which of these satellite images represents Singapore?",
+  "image":"true",
+ "options": [
+     /assets/Countries/SG.jpg,
+     /assets/Countries/Peru.jpg,
+     /assets/Countries/USA.jpg,
+     /assets/Countries/UK.jpg
+    ],
+  "answer": 0
+  },
+  "q2"{
+  "question":"Where do you think Singapore ranks in mortality risk due to flooding? (the first decile has the lowest risk of flooding)",
+  "image":"false",
+ "options": [
+     "1st decile",
+     "9th",
+     "10th",
+     "6th"
+    ],
+  "answer": 2
+  }
+  "q3"{
+  "question":"Does Singapore have more amphibian species or mammal species?",
+  "image":"false",
+ "options": [
+     "Amphibian",
+     "Mammal",
+    ],
+  "answer": 1
+  },
+  "q4"{
+  "question":"What do you think the temperature during the day of Singapore is?",
+  "image":"false",
+ "options": [
+     "35",
+     "27",
+     "26"
+     "12"
+    ],
+  "answer": 1
+  },
+    "q5"{
+  "question":"What is the population density of your country? (people per square kilometre)",
+  "image":"false",
+ "options": [
+     "89",
+     "35",
+     "259"
+     ">1000"
+    ],
+  "answer": 3
+  },
+  
+  }
