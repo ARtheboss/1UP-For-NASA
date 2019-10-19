@@ -1,1 +1,4 @@
-hello
+There is a question object
+program chooses a type of question
+question is randomly chosen (used questions should be saved in an array so that they aren't reused)
+class has 4-5 attributes, (question), (image), (given info), (answer choices)
