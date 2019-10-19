@@ -15,9 +15,9 @@
   "image":"false",
  "options": [
      "1st decile",
-     "9th",
-     "10th",
-     "6th"
+     "9th decile",
+     "10th decile",
+     "6th decile"
     ],
   "answer": 2
   },
