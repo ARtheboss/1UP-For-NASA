@@ -121,7 +121,7 @@
                 "answer": "Forest"
         },  
             "location9": {
-                "location name":"Kinabalu"
+                "location name":"Kinabalu",
                 "soil moisture (g/cm^3)": "0.19",
                 "temperature (˚C)": "14",
                 "image": "Biomes/Desert/Kinabalu National Park Dirt0.19 14°C.jpg",
@@ -135,9 +135,9 @@
                 "answer": "Forest"
         },  
             "location10": {
-                "location name":"Sinharaja ______"
+                "location name":"Sinharaja ______",
                 "soil moisture (g/cm^3)": "0.19",
-                "temperature (˚C)": "21"
+                "temperature (˚C)": "21",
                 "image": "Biomes/Desert/Sinharaja Forest ReserveDirt0.19 21°C.jpg",
                 "options": [
                     "Desert",
@@ -148,77 +148,7 @@
                 ],
                 "answer": "Forest"
         },   
-            "location11": {
-                "location name":"Sinharaja ______"
-                "soil moisture (g/cm^3)": "0.19",
-                "temperature (˚C)": "21"
-                "image": "Biomes/Desert/Sinharaja Forest ReserveDirt0.19 21°C.jpg",
-                "options": [
-                    "Desert",
-                    "Forest",
-                    "Grassland",
-                    "Marine",
-                    "Tundra",
-                ],
-                "answer": "Grassland"
-        },    
-            "location11": {
-                "location name":"Sinharaja ______"
-                "soil moisture (g/cm^3)": "0.19",
-                "temperature (˚C)": "21"
-                "image": "Biomes/Desert/Sinharaja Forest ReserveDirt0.19 21°C.jpg",
-                "options": [
-                    "Desert",
-                    "Forest",
-                    "Grassland",
-                    "Marine",
-                    "Tundra",
-                ],
-                "answer": "Grassland"
-        },    
-            "location11": {
-                "location name":"Sinharaja ______"
-                "soil moisture (g/cm^3)": "0.19",
-                "temperature (˚C)": "21"
-                "image": "Biomes/Desert/Sinharaja Forest ReserveDirt0.19 21°C.jpg",
-                "options": [
-                    "Desert",
-                    "Forest",
-                    "Grassland",
-                    "Marine",
-                    "Tundra",
-                ],
-                "answer": "Grassland"
-        },    
-            "location11": {
-                "location name":"Sinharaja ______"
-                "soil moisture (g/cm^3)": "0.19",
-                "temperature (˚C)": "21"
-                "image": "Biomes/Desert/Sinharaja Forest ReserveDirt0.19 21°C.jpg",
-                "options": [
-                    "Desert",
-                    "Forest",
-                    "Grassland",
-                    "Marine",
-                    "Tundra",
-                ],
-                "answer": "Grassland"
-        },    
-            "location11": {
-                "location name":"Sinharaja ______"
-                "soil moisture (g/cm^3)": "0.19",
-                "temperature (˚C)": "21"
-                "image": "Biomes/Desert/Sinharaja Forest ReserveDirt0.19 21°C.jpg",
-                "options": [
-                    "Desert",
-                    "Forest",
-                    "Grassland",
-                    "Marine",
-                    "Tundra",
-                ],
-                "answer": "Grassland"
-        },  
-        
+            
             
         
     }
