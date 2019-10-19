@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Earth Quiz</title>
+  <title>Worldview Quiz</title>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
   <script src="js/question.js"></script>
   <script src='js/main.js'></script>
@@ -9,17 +9,97 @@
 </head>
 
 <body>
-	<h1 id='title'>Earth
+	<h1 id='title'>Worldview
   		<img id='title-img' src='https://onspondata.s3.ap-south-1.amazonaws.com/Images/events/logo/SpaceApps_logo-circle-white-1567453680.png'>
-  	Quiz</h1>
+  	Challenge</h1>
   	<div id='start-page'>
-	  	<h3>How well do you know our planet?</h3>
+	  	<h3>How well do you know your planet?</h3>
 	  	<p>(Click on the globe to continue)</p>
 	  	<div class="container">
 	  		<img src='https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg'  class='start'>
-	  		<div class="overlay" onclick='main();'>
+	  		<div class="overlay" onclick='hideStartPage();'>
 	   			<div class="text">Start</div>
 	  		</div>
+		</div>
+	</div>
+	<div id='horse'>
+		OFF TO WORLDVIEW
+	</div>
+	<div id='country-choices'>
+		<div style="text-align: center;">It's a tour around the world. Pick a country.</div>
+		<div class='list'>
+			<div class='country' onclick="main('australia')">
+				<img src='https://cdn.britannica.com/78/6078-004-A4F193DB/Flag-Australia.jpg'>
+				<div class='country-name'>Australia</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/d/d9/Flag_of_Canada_%28Pantone%29.svg'>
+				<div class='country-name'>Canada</div>
+			</div>
+			<div class='country'>
+				<img src='https://cdn.britannica.com/90/7490-004-415899A0/Flag-China.jpg'>
+				<div class='country-name'>China</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/2000px-Flag_of_Denmark.svg.png'>
+				<div class='country-name'>Denmark</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/en/4/41/Flag_of_India.svg'>
+				<div class='country-name'>India</div>
+			</div>
+			<div class='country'>
+				<img src='https://cdn.britannica.com/48/1648-004-644EBE62/Flag-Indonesia.jpg'>
+				<div class='country-name'>Indonesia</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Japan_%281870%E2%80%931999%29.svg/220px-Flag_of_Japan_%281870%E2%80%931999%29.svg.png'>
+				<div class='country-name'>Japan</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/6/66/Flag_of_Malaysia.svg'>
+				<div class='country-name'>Malaysia</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/1200px-Flag_of_Mongolia.svg.png'>
+				<div class='country-name'>Mongolia</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/2000px-Flag_of_Norway.svg.png'>
+				<div class='country-name'>Norway</div>
+			</div>
+			<div class='country'>
+				<img src='https://cdn10.bigcommerce.com/s-hhbbk/products/764/images/3820/OMAN0001__66186.1460460920.1280.1280.png?c=2'>
+				<div class='country-name'>Oman</div>
+			</div>
+			<div class='country' onclick="main('peru')">
+				<img src='https://www.worldatlas.com/upload/2a/50/49/pe-flag-min.jpg'>
+				<div class='country-name'>Peru</div>
+			</div>
+			<div class='country'>
+				<img src='https://cdn10.bigcommerce.com/s-hhbbk/products/808/images/3864/SAAR0001__06134.1460460945.1280.1280.png?c=2'>
+				<div class='country-name'>Saudi Arabia</div>
+			</div>
+			<div class='country' onclick="main('singapore')">
+				<img src='https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg'>
+				<div class='country-name'>Singapore</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg'>
+				<div class='country-name'>Sri Lanka</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png'>
+				<div class='country-name'>United Kingdom</div>
+			</div>
+			<div class='country' onclick="main('usa')">
+				<img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png'>
+				<div class='country-name'>United States of America</div>
+			</div>
+			<div class='country'>
+				<img src='https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg'>
+				<div class='country-name'>Zambia</div>
+			</div>
 		</div>
 	</div>
 	<div id='questions'>
@@ -27,15 +107,18 @@
 			What is the meaning of life?
 		</div>
 		<div id='answers'>
-			<div id='answer0' class='answers'>General</div>
+			<div id='answer0' class='answers'></div>
 			<div id='answer1' class='answers'>Kenobi</div>
 			<div id='answer2' class='answers'>Hello</div>
 			<div id='answer3' class='answers'>There</div>
 		</div>
+		<!--
 		<div class='score'>
 			<div class='score-label'>Score</div>
 			<div id='score'>0</div>
 		</div>
+	-->
+	</div>
 	</div>
 </body>
 
