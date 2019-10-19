@@ -61,17 +61,8 @@
                 ],
                 "answer": "Mammals"
             },
-         "q7": {
-           
-              "Location": "China", 
-          
-                "options": [
-                    "Amphibians",
-                    "Mammals"
-                ],
-                "answer": "Amphibians"
-            },
-           "q8": {
+
+           "q7": {
            
               "Location": "Japan", 
           
@@ -82,7 +73,7 @@
                 "answer": "Amphibians"
             },
   
-             "q9": {
+             "q8": {
            
               "Location": "Oman", 
           
@@ -93,7 +84,7 @@
                 "answer": "Mammals"
             },
   
-             "q10": {
+             "q9": {
            
               "Location": "Sri Lanka", 
           
@@ -103,7 +94,7 @@
                 ],
                 "answer": "Mammals"
             },
-               "q11": {
+               "q10": {
            
               "Location": "America", 
           
@@ -114,19 +105,19 @@
                 "answer": "Mammals"
             },
   
+  "q11": {
+           
+              "Location": "Canada", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+    
   "q12": {
            
-              "Location": "Canada", 
-          
-                "options": [
-                    "Amphibians",
-                    "Mammals"
-                ],
-                "answer": "Mammals"
-            },
-    
-  "q13": {
-           
               "Location": "Mongolia", 
           
                 "options": [
@@ -135,30 +126,9 @@
                 ],
                 "answer": "Mammals"
             },
-    
-  "q14": {
-           
-              "Location": "Canada", 
-          
-                "options": [
-                    "Amphibians",
-                    "Mammals"
-                ],
-                "answer": "Mammals"
-            },
-      
-  "q15": {
-           
-              "Location": "Mongolia", 
-          
-                "options": [
-                    "Amphibians",
-                    "Mammals"
-                ],
-                "answer": "Mammals"
-            },
+
   
-    "q16": {
+    "q13": {
            
               "Location": "United Kingdom", 
           
@@ -169,7 +139,7 @@
                 "answer": "Mammals"
             },
   
-      "q17": {
+      "q14": {
            
               "Location": "Norway", 
           
@@ -180,7 +150,7 @@
                 "answer": "Mammals"
             },
   
-   "q18": {
+   "q15": {
            
               "Location": "Saudi Arabia", 
           
@@ -191,7 +161,7 @@
                 "answer": "Mammals"
             },
   
-     "q19": {
+     "q16": {
            
               "Location": "Spain", 
           
@@ -202,7 +172,7 @@
                 "answer": "Mammals"
             },
     
-     "q20": {
+     "q17": {
            
               "Location": "Spain", 
           
