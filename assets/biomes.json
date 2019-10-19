@@ -288,6 +288,80 @@
                 ],
                 "answer": "Marine"
         }, 
+                       "location21": {
+                "location name":"Archipelago of Nunavut, Canada",
+                "soil moisture (g/cm^3)": "0.1",
+                "temperature (˚C)": "-2",
+                "image": "assets/Biome/Tundra/Archipelago of Nunavut, Canada Dirt0.1 -2°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Tundra"
+        },
+        
+          "location22": {
+                "location name":"Greenland",
+                "soil moisture (g/cm^3)": "0.05",
+                "temperature (˚C)": "-7",
+                "image": "assets/Biome/Tundra/Greenland Dirt0.05 -7°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Tundra"
+        },
+        
+           "location23": {
+                "location name":"Kings Canyon National Park, California",
+                "soil moisture (g/cm^3)": "0.0075",
+                "temperature (˚C)": "7",
+                "image": "assets/Biome/Tundra/Kings Canyon National Park, California Dirt0.0075 7°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Tundra"
+        },
+        
+         "location24": {
+                "location name":"Svalbard, Norway",
+                "soil moisture (g/cm^3)": "0",
+                "temperature (˚C)": "-6",
+                "image": "assets/Biome/Tundra/Svalbard, Norway Dirt0 -6°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Tundra"
+        },
+        
+                 "location25": {
+                "location name":"Svalbard, Norway",
+                "soil moisture (g/cm^3)": "0.014",
+                "temperature (˚C)": "-7",
+                "image": "assets/Biome/Tundra/Vuntut National Park, Canada Dirt0.014 -7°C.jpg",
+                "options": [
+                    "Desert",
+                    "Forest",
+                    "Grassland",
+                    "Marine",
+                    "Tundra",
+                ],
+                "answer": "Tundra"
+        },
         
     }
 }
