@@ -20,13 +20,13 @@
      "6th"
     ],
   "answer": 2
-  }
+  },
   "q3:"{
   "question":"Does Singapore have more amphibian species or mammal species?",
   "image":"false",
  "options": [
      "Amphibian",
-     "Mammal",
+     "Mammal"
     ],
   "answer": 1
   },
@@ -36,7 +36,7 @@
  "options": [
      "35",
      "27",
-     "26"
+     "26",
      "12"
     ],
   "answer": 1
@@ -47,10 +47,10 @@
  "options": [
      "89",
      "35",
-     "259"
+     "259",
      ">1000"
     ],
   "answer": 3
-  },
+  }
   
   }
