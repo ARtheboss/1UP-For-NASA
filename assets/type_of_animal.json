@@ -1,12 +1,215 @@
-"area_through_time": {
+"type_of_animal": {
   "questionanimal": "Which type of animal makes up most of the area?",
         "q1": {
             "Location": "Peru", 
           
                 "options": [
-                    "Amphibian",
+                    "Amphibians",
                     "Mammals"
                 ],
-                "answer": "Amphibian"
+                "answer": "Amphibians"
+            },
+    
+            "q2": {
+           
+              "Location": "Zambia", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Amphibians"
+            },
+    
+   "q3": {
+           
+              "Location": "Australia", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+       "q4": {
+           
+              "Location": "Malaysia", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+       "q5": {
+           
+              "Location": "India", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+         "q6": {
+           
+              "Location": "China", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+         "q7": {
+           
+              "Location": "China", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Amphibians"
+            },
+           "q8": {
+           
+              "Location": "Japan", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Amphibians"
+            },
+  
+             "q9": {
+           
+              "Location": "Oman", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+  
+             "q10": {
+           
+              "Location": "Sri Lanka", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+               "q11": {
+           
+              "Location": "America", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+  
+  "q12": {
+           
+              "Location": "Canada", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+    
+  "q13": {
+           
+              "Location": "Mongolia", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+    
+  "q14": {
+           
+              "Location": "Canada", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+      
+  "q15": {
+           
+              "Location": "Mongolia", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+  
+    "q16": {
+           
+              "Location": "United Kingdom", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+  
+      "q17": {
+           
+              "Location": "Norway", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+  
+   "q18": {
+           
+              "Location": "Saudi Arabia", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+  
+     "q19": {
+           
+              "Location": "Spain", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
+            },
+    
+     "q20": {
+           
+              "Location": "Spain", 
+          
+                "options": [
+                    "Amphibians",
+                    "Mammals"
+                ],
+                "answer": "Mammals"
             },
 }
