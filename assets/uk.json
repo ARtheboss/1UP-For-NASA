@@ -1,0 +1,56 @@
+{
+  "q1":{
+  "question":"Which of these satellite images represents UK?",
+  "image":"true",
+ "options": [
+     "../assets/Countries/SG.jpg",
+     "../assets/Countries/Peru.jpg",
+     "../assets/Countries/USA.jpg",
+     "../assets/Countries/UK.jpg"
+    ],
+  "answer": 3
+  },
+  "q2":{
+  "question":"Where do you think UK ranks in mortality risk due to flooding? (the first decile has the lowest risk of flooding)",
+  "image":"false",
+ "options": [
+     "1st decile",
+     "9th decile",
+     "10th decile",
+     "6th decile"
+    ],
+  "answer": 3
+  },
+  "q3":{
+  "question":"Does the UK have more amphibian species or mammal species?",
+  "image":"false",
+ "options": [
+     "Amphibian",
+     "Mammal"
+    ],
+  "answer": 1
+  },
+  "q4":{
+  "question":"What do you think the average temperature during the day of UK is?",
+  "image":"false",
+ "options": [
+     "35",
+     "21",
+     "23",
+     "12"
+    ],
+  "answer": 3
+  },
+    "q5":{
+  "question":"What is the population density of the UK? (people per square kilometre)",
+  "image":"false",
+ "options": [
+     "90",
+     "35",
+     "260",
+     ">1000"
+    ],
+  "answer": 2
+  }
+  
+  }
