@@ -12,13 +12,13 @@
   "answer": 3
   },
   "q2":{
-  "question":"Where do you think UK ranks in mortality risk due to flooding? (the first decile has the lowest risk of flooding)",
+  "question":"Aboout how many thermal anomalies (fires) occurred in the UK in the last week?",
   "image":"false",
  "options": [
-     "1st decile",
-     "9th decile",
-     "10th decile",
-     "6th decile"
+      "0-5",
+      "6-10",
+      "11-15",
+      "15+"
     ],
   "answer": 3
   },
