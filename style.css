@@ -1,5 +1,7 @@
 body{
-  background:black;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 *{
@@ -12,6 +14,7 @@ body{
   bottom:10vw;
   font-size:6vw;
   transition: 1s ease;
+  font-family: "Arial";
 }
 
 #title-img{
@@ -32,6 +35,7 @@ p{
   position:relative;
   bottom:5.5vw;
   z-index: 10;
+  font-family: "Arial";
 }
 
 .start{
@@ -51,7 +55,7 @@ p{
   position: absolute;
   top: 0;
   bottom: 0;
-  right: 26.75vw;
+  right: 27vw;
   height: 45vw;
   width: 45vw;
   opacity: 0;
@@ -91,6 +95,9 @@ p{
   height: 16%;
   padding: 2vw;
   border-radius: 2vw 2vw 0 0;
+  font-size: 3vw;
+  text-align: center;
+  font-family: "Georgia";
 }
 
 #answers{
@@ -102,11 +109,15 @@ p{
 
 .answers{
   background:white;
-  width:44.2%;
-  height:40.52%;
+  width:44%;
+  height:40%;
   padding: 2vw;
   position: absolute;
   color:black;
+  font-size: 4vw;
+  text-align: center;
+  vertical-align: center;
+  font-family: 'Lalezar', cursive;
 }
 
 .answers:hover{
@@ -124,12 +135,10 @@ p{
 #answer2{
   left:0;
   bottom:0;
-  border-radius: 0 0 0 2vw;
 }
 #answer3{
   right:0;
   bottom:0;
-  border-radius: 0 0 2vw 0;
 }
 
 #horse{
@@ -138,10 +147,31 @@ p{
   left: 1%;
   top: 45%;
   background: white;
-  font-size: 10vw;
+  font-size: 9vw;
   color: black;
   opacity: 0;
   pointer-events: none;
+  z-index: 100;
+  transition: 2s ease;
+  width:100%;
+  text-align: center;
+  font-family: "Arial";
+}
+
+#strikes{
+  margin: auto;
+  margin-left: 38.5vw;
+  margin-bottom: 1vw;
+  display: none;
+  position: relative;
+  bottom: 3vw;
+}
+.strike{
+  opacity: 0.2;
+  transition: 1s ease;
+  width: 5vw;
+  display: inline-block;
+  margin: 1vw;
 }
 
 .unused{
@@ -154,6 +184,9 @@ p{
 
 #country-choices{
   display: none;
+  overflow: hidden;
+  position: relative;
+  bottom:4vw;
 }
 
 .country{
@@ -176,7 +209,7 @@ p{
 
 .list{
   width:70%;
-  height:65vw;
+  height:70vh;
   margin:auto;
   overflow-y: scroll;
 }
@@ -184,14 +217,30 @@ p{
 .answers img{
   width:80%;
 }
-/*
+
+#insult{
+  width:50%;
+  left: 22%;
+  top: 50%;
+  color:black;
+  position: absolute;
+  visibility: hidden;
+  transition: .5s ease;
+  z-index: 20;
+  padding:3vw;
+  font-size:4vw;
+  text-align:center;
+}
+
+
 .score{
   position:absolute;
   top:2vh;
   right:2vw;
   height:3vw;
-  width:15vw;
+  width:10vw;
   border: solid white 0.4vw;
+  font-family: 'VT323', monospace;
 }
 
 .score-label{
@@ -204,10 +253,33 @@ p{
   background:white;
   float:right;
   padding: 0.2vw;
-  width:50%;
+  width:40%;
   height:90%;
   color:black;
   font-size:2.5vw;
   text-align: right;
 }
-*/
+
+#score-box{
+  display: none;
+}
+
+
+.timer{
+  width:7vw;
+  position:absolute;
+  top:2vh;
+  left:2vw;
+  border: solid white 0.4vw;
+  font-family: 'VT323', monospace;
+  background: white;
+  text-align:center;
+  transition: 1s ease;
+}
+
+#timer{
+  width:100%;color: black;display:inline-block;
+  transition: 1s ease;
+}
+
+
