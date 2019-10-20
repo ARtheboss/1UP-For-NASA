@@ -51,6 +51,17 @@
      ">1000"
     ],
   "answer": 3
+  },
+    "q6":{
+  "question":"How many droughts has Singapore had in the last 20 years?)",
+  "image":"false",
+ "options": [
+     "2",
+     "0",
+     "1",
+     "7"
+    ],
+  "answer": 0
   }
   
   }
