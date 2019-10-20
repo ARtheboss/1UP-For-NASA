@@ -23,11 +23,13 @@
   "answer": 0
   },
   "q3":{
-  "question":"Does the UK have more amphibian species or mammal species?",
+  "question":"What is the average human footprint across the UK, approximately? (For reference, the average in the United States is 20%)",
   "image":"false",
  "options": [
-     "Amphibian",
-     "Mammal"
+     "10%",
+     "20%",
+      "30%",
+      "40%"
     ],
   "answer": 1
   },
