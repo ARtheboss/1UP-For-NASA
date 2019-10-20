@@ -11,7 +11,7 @@
   "answer": 2
   },
   "q2":{
-  "question":"Where do you think the US ranks in mortality risk due to flooding? (the first decile has the lowest risk of flooding)",
+  "question":"Where do you think US ranks in mortality risk due to flooding? (the first decile has the lowest risk of flooding)",
   "image":"false",
  "options": [
      "1st decile",
@@ -31,18 +31,18 @@
   "answer": 1
   },
   "q4":{
-  "question":"What do you think the temperature during the day of US is?",
+  "question":"What do you think the average temperature during the day of the entire US is?",
   "image":"false",
  "options": [
      "35",
      "27",
      "26",
-     "12"
+     "13"
     ],
   "answer": 3
   },
     "q5":{
-  "question":"What is the population density of your country? (people per square kilometre)",
+  "question":"What is the population density of the US? (people per square kilometre)",
   "image":"false",
  "options": [
      "89",
