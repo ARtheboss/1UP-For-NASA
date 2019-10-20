@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Worldview Quiz</title>
+  <title>Worldview Challenge</title>
   <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
-  <script src="js/question.js"></script>
   <script src='js/main.js'></script>
+  <link href="https://fonts.googleapis.com/css?family=Lalezar|VT323&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-	<h1 id='title'>Worldview
+	<h1 id='title'>WORLDVIEW
   		<img id='title-img' src='https://onspondata.s3.ap-south-1.amazonaws.com/Images/events/logo/SpaceApps_logo-circle-white-1567453680.png'>
-  	Challenge</h1>
+  	CHALLENGE</h1>
   	<div id='start-page'>
 	  	<h3>How well do you know your planet?</h3>
 	  	<p>(Click on the globe to continue)</p>
@@ -25,10 +25,19 @@
 	<div id='horse'>
 		OFF TO WORLDVIEW
 	</div>
+	<div class='score' id='score-box'>
+			<div class='score-label'>Score</div>
+			<div id='score'>0000</div>
+		</div>
+	<div id='strikes'>
+		<img id='strike1' class='strike' src='https://www.freeiconspng.com/uploads/x-png-33.png'>
+		<img id='strike2' class='strike' src='https://www.freeiconspng.com/uploads/x-png-33.png'>
+		<img id='strike3' class='strike' src='https://www.freeiconspng.com/uploads/x-png-33.png'>
+	</div>
 	<div id='country-choices'>
-		<div style="text-align: center;">It's a tour around the world. Pick a country.</div>
+		<div style="text-align: center;font-size:2vw;">It's a tour around the world. Pick a country.</div>
 		<div class='list'>
-			<div class='country' onclick="main('australia')">
+			<div class='country' onclick="main(this.id)" id='australia'>
 				<img src='https://cdn.britannica.com/78/6078-004-A4F193DB/Flag-Australia.jpg'>
 				<div class='country-name'>Australia</div>
 			</div>
@@ -72,7 +81,7 @@
 				<img src='https://cdn10.bigcommerce.com/s-hhbbk/products/764/images/3820/OMAN0001__66186.1460460920.1280.1280.png?c=2'>
 				<div class='country-name'>Oman</div>
 			</div>
-			<div class='country' onclick="main('peru')">
+			<div class='country' onclick="main(this.id)" id='peru'>
 				<img src='https://www.worldatlas.com/upload/2a/50/49/pe-flag-min.jpg'>
 				<div class='country-name'>Peru</div>
 			</div>
@@ -80,7 +89,7 @@
 				<img src='https://cdn10.bigcommerce.com/s-hhbbk/products/808/images/3864/SAAR0001__06134.1460460945.1280.1280.png?c=2'>
 				<div class='country-name'>Saudi Arabia</div>
 			</div>
-			<div class='country' onclick="main('singapore')">
+			<div class='country' onclick="main(this.id)" id='singapore'>
 				<img src='https://upload.wikimedia.org/wikipedia/commons/4/48/Flag_of_Singapore.svg'>
 				<div class='country-name'>Singapore</div>
 			</div>
@@ -88,36 +97,32 @@
 				<img src='https://upload.wikimedia.org/wikipedia/commons/1/11/Flag_of_Sri_Lanka.svg'>
 				<div class='country-name'>Sri Lanka</div>
 			</div>
-			<div class='country'>
+			<div class='country' onclick="main(this.id)" id='uk'>
 				<img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1280px-Flag_of_the_United_Kingdom.svg.png'>
 				<div class='country-name'>United Kingdom</div>
 			</div>
-			<div class='country' onclick="main('usa')">
+			<div class='country' onclick="main(this.id)" id='usa'>
 				<img src='https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1280px-Flag_of_the_United_States.svg.png'>
 				<div class='country-name'>United States of America</div>
 			</div>
-			<div class='country'>
+			<div class='country' >
 				<img src='https://upload.wikimedia.org/wikipedia/commons/0/06/Flag_of_Zambia.svg'>
 				<div class='country-name'>Zambia</div>
 			</div>
 		</div>
 	</div>
 	<div id='questions'>
-		<div id='question'>
-			What is the meaning of life?
+		<div class='timer' id='timer-block'>
+			<div id='timer' class='score-label'>0:45</div>
 		</div>
+		<div id='insult'></div>
+		<div id='question'></div>
 		<div id='answers'>
 			<div id='answer0' class='answers'></div>
-			<div id='answer1' class='answers'>Kenobi</div>
-			<div id='answer2' class='answers'>Hello</div>
-			<div id='answer3' class='answers'>There</div>
+			<div id='answer1' class='answers'></div>
+			<div id='answer2' class='answers'></div>
+			<div id='answer3' class='answers'></div>
 		</div>
-		<!--
-		<div class='score'>
-			<div class='score-label'>Score</div>
-			<div id='score'>0</div>
-		</div>
-	-->
 	</div>
 	</div>
 </body>
