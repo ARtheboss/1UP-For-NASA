@@ -43,7 +43,7 @@ function main(country){
 
 	hideCountryList();
 
-	getJSONfile("https://raw.githubusercontent.com/ARtheboss/1UP-For-NASA/master/assets/"+country+'.json');
+	getJSONfile("https://spaceapps.advayratan.com/assets/"+country+'.json');
 
 }
 
